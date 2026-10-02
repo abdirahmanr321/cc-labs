@@ -5,8 +5,8 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
-      steps:
-        - name: checkout code
-          uses: actions/checkout@v2
-          -name: we are testing this workflow
-            run: echo "hello everyone"
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v2
+      - name: we are testing this workflow
+        run: echo "hello everyone"
